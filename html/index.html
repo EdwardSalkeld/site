@@ -1,1 +1,375 @@
-Updated placeholder
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Salkeld</title>
+    <meta name="description" content="Senior Software Engineer with 10+ years of experience building scalable web applications and leading development teams. Python, JavaScript, and full-stack development expertise.">
+    <meta name="keywords" content="Edward Salkeld, Senior Software Engineer, Python Developer, Full Stack Developer, JavaScript, Software Development, Team Leadership">
+    <meta name="author" content="Edward Salkeld">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="TODO: Add your domain URL">
+    <meta property="og:title" content="Edward Salkeld">
+    <meta property="og:description" content="Senior Software Engineer with 10+ years of experience building scalable web applications and leading development teams. Python, JavaScript, and full-stack development expertise.">
+    <meta property="og:site_name" content="Edward Salkeld">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="TODO: Add your domain URL">
+    <meta property="twitter:title" content="Edward Salkeld">
+    <meta property="twitter:description" content="Senior Software Engineer with 10+ years of experience building scalable web applications and leading development teams. Python, JavaScript, and full-stack development expertise.">
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#fdfdfd">
+    <link rel="canonical" href="TODO: Add your domain URL">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #fafafa;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #fdfdfd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .hero {
+            padding: 25px 30px 40px 30px;
+            background: #fdfdfd;
+            color: #2c3e50;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .hero-content {
+            text-align: left;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0;
+            font-weight: 700;
+        }
+
+        .hero-links {
+            font-size: 1rem;
+            color: #6b7280;
+            text-align: right;
+        }
+
+        .hero-links a {
+            color: #2c3e50;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.2s ease;
+        }
+
+        .hero-links a:hover {
+            color: #374151;
+        }
+
+        .about-section {
+            padding: 0 30px 30px 30px;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #e1e8ed;
+            margin: 0 0 25px 0;
+        }
+
+        .about-section p {
+            color: #4b5563;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .about-section p:last-child {
+            margin-bottom: 0;
+        }
+
+
+        .section {
+            padding: 30px;
+        }
+
+        .section h2 {
+            font-size: 1.6rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            border-bottom: 1px solid #e1e8ed;
+            padding-bottom: 15px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #fdfdfd;
+            color: #2c3e50;
+            text-decoration: none;
+            border-radius: 6px;
+            border: 1px solid #e1e8ed;
+            transition: box-shadow 0.2s ease;
+            font-weight: 500;
+        }
+
+        .social-link:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .work-item,
+        .project-item {
+            margin-bottom: 25px;
+        }
+
+        .work-item h3,
+        .project-item h3 {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-bottom: 3px;
+            font-weight: 600;
+        }
+
+        .work-item .company,
+        .project-item .type {
+            color: #6b7280;
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 2px;
+        }
+
+        .work-item .duration {
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+        }
+
+        .work-item p,
+        .project-item p {
+            color: #4b5563;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                padding: 20px 20px 30px 20px;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-links {
+                text-align: left;
+                margin-top: 15px;
+            }
+
+            .about-section {
+                padding: 0 20px 20px 20px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+
+            .section h2 {
+                font-size: 1.3rem;
+            }
+
+            .section {
+                padding: 15px;
+            }
+
+            .hero {
+                padding: 15px 15px 25px 15px;
+            }
+
+            .about-section {
+                padding: 0 15px 15px 15px;
+            }
+        }
+
+        /* Dark mode styles */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #0f1419;
+                color: #f9fafb;
+            }
+
+            .card {
+                background: #1c2128;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            }
+
+            .hero {
+                background: #1c2128;
+                color: #f9fafb;
+            }
+
+            .hero-links a {
+                color: #f9fafb;
+            }
+
+            .hero-links a:hover {
+                color: #e5e7eb;
+            }
+
+            .divider {
+                border-top: 1px solid #374151;
+            }
+
+            .about-section p {
+                color: #e5e7eb;
+            }
+
+            .section h2 {
+                color: #f9fafb;
+                border-bottom: 1px solid #374151;
+            }
+
+            .work-item h3,
+            .project-item h3 {
+                color: #f9fafb;
+            }
+
+            .work-item .company,
+            .project-item .type {
+                color: #d1d5db;
+            }
+
+            .work-item .duration {
+                color: #9ca3af;
+            }
+
+            .work-item p,
+            .project-item p {
+                color: #e5e7eb;
+            }
+
+            .work-item,
+            .project-item {
+                border: none;
+            }
+
+            .social-link {
+                background: #1c2128;
+                color: #f9fafb;
+                border: 1px solid #374151;
+            }
+
+            .social-link:hover {
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Edward Salkeld</h1>
+                </div>
+                <div class="hero-links">
+                    <a href="https://www.linkedin.com/in/edward-salkeld/">LinkedIn</a>
+                    <a href="https://github.com/EdwardSalkeld/">GitHub</a>
+                </div>
+            </div>
+            <div class="about-section">
+                <hr class="divider">
+                <p>
+                <p>A senior developer with 10+ years of experience building scalable applications and leading development teams. I like solving complex problems and breaking large changes down into managemable pieces.</p>
+                <p>I believe in a pragmatic approach to writing clean, maintainable code and am always keen to learn new technologies and methodologies. My approach combines technical expertise with a keen eye for the tangible real world impact of a change.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="section">
+                <h2>Work Experience</h2>
+
+                <div class="work-item">
+                    <h3>Bright Network</h3>
+                    <div class="duration">2025 - Present</div>
+                    <p>Helping connect the brightest graduate talent with employers across the country. I've worked on the B2C offering, focusing on backend architecture, observability and data pipelines.</p>
+                </div>
+
+                <div class="work-item">
+                    <h3>NewsNow.co.uk</h3>
+                    <div class="duration">2022 - 2025</div>
+                    <p>A pre-Google dotcom startup news aggregator. I hired and lead a development team that took the company through a complete webapp rebuild and a business pivot towards user subscription funding. </p>
+                </div>
+
+                <div class="work-item">
+                    <h3>TPP</h3>
+                    <div class="duration">2012 - 2021</div>
+                    <p>Connecting up healthcare in primary and secondary care, both in the UK and around the world. I played a leading role in the internationalisation effort of the platform - from timezones, to languages, to clinical coding systems - and developing secure integrations with 3rd party systems (ambulance, prescriptions, insurance, etc)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="section">
+                <h2>Personal Projects</h2>
+
+                <div class="project-item">
+                    <h3>Rum and Popcorn (rumandpopcorn.com)</h3>
+                    <div class="type">Blog</div>
+                    <p>An on-again off-again blog project that goes back to the days of blogspot. It's been a Wordpress site, a Jekyll site and is currently a Hugo site, hosted on AWS Amplify with source on GitHub.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>Jog On</h3>
+                    <div class="type">Run tracking app</div>
+                    <p>Largely an excuse to write and re-write the same API and DB interface in Python, Rust and Go - this is a (very) simple app for tracking run distances that I host on private infrastructure.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>City List</h3>
+                    <div class="type">Webapp</div>
+                    <p>A work-in-progress mapping app, to catalog current and past restaurants, bars and cafes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
