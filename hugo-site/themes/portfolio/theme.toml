@@ -1,0 +1,4 @@
+name = "Portfolio"
+license = "MIT"
+description = "A simple portfolio theme"
+min_version = "0.41.0"

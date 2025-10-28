@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="container">
+    <div class="card">
+        {{ partial "hero.html" . }}
+        {{ partial "about.html" . }}
+    </div>
+
+    <div class="card">
+        {{ partial "work.html" . }}
+    </div>
+
+    <div class="card">
+        {{ partial "projects.html" . }}
+    </div>
+</div>
+{{ end }}
