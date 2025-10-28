@@ -30,10 +30,12 @@ All commands use Docker, so you don't need Hugo installed locally. Just Docker!
 
 ```bash
 make help           # Show all available commands
+make docker-build   # Build the Hugo Docker image
 make build          # Build the site (output in hugo-site/public/)
 make serve          # Serve the site locally at http://localhost:1313
 make serve-original # Serve the original HTML site at http://localhost:8000
 make clean          # Clean build artifacts
+make clean-all      # Clean build artifacts and Docker image
 ```
 
 ### Development Workflow
@@ -96,8 +98,12 @@ The custom portfolio theme includes:
 - SEO-friendly meta tags
 - Semantic HTML structure
 
-## Docker Images
+## Docker Setup
 
-The site uses the official Hugo Docker image: `klakegg/hugo:0.111.3-alpine`
+The site uses a custom Docker image built on official Debian base image with Hugo installed from the official Hugo releases.
 
-No local installation of Hugo is required.
+- **Base image**: `debian:bookworm-slim` (official Debian image)
+- **Hugo version**: 0.139.3 (downloaded from official Hugo GitHub releases)
+- **Build**: `make docker-build` or automatic when running `make build` or `make serve`
+
+No local installation of Hugo is required. The Docker image is built locally on first use.
