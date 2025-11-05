@@ -2,6 +2,10 @@
   type: "Blog"
   description: "An on-again off-again blog project that goes back to the days of blogspot. It's been a Wordpress site, a Jekyll site and is currently a Hugo site, hosted on AWS Amplify with source on GitHub."
 
+- title: "LIFF Archive (liff.salkeld.net)"
+  type: "Web archive"
+  description: "An archive of films shown at the Leeds International Film Festival. Hugo site, hosted in Cloudflare"
+
 - title: "Jog On"
   type: "Run tracking app"
   description: "Largely an excuse to write and re-write the same API and DB interface in Python, Rust and Go - this is a (very) simple app for tracking run distances that I host on private infrastructure."
