@@ -4,14 +4,14 @@ title = "Edward Salkeld"
 theme = "portfolio"
 
 [params]
-  description = "Senior Software Engineer with 10+ years of experience building scalable web applications and leading development teams. Python, JavaScript, and full-stack development expertise."
-  author = "Edward Salkeld"
-  keywords = "Edward Salkeld, Senior Software Engineer, Python Developer, Full Stack Developer, JavaScript, Software Development, Team Leadership"
+description = "Senior Software Engineer with 10+ years of experience building scalable web applications and leading development teams. Python, JavaScript, and full-stack development expertise."
+author = "Edward Salkeld"
+keywords = "Edward Salkeld, Senior Software Engineer, Python Developer, Full Stack Developer, JavaScript, Software Development, Team Leadership"
 
 [params.social]
-  linkedin = "https://www.linkedin.com/in/edward-salkeld/"
-  github = "https://github.com/EdwardSalkeld/"
+linkedin = "https://www.linkedin.com/in/edward-salkeld/"
+github = "https://github.com/EdwardSalkeld/"
 
 [params.about]
-  text1 = "A senior developer with 10+ years of experience building scalable applications and leading development teams. I like solving complex problems and breaking large changes down into managemable pieces."
-  text2 = "I believe in a pragmatic approach to writing clean, maintainable code and am always keen to learn new technologies and methodologies. My approach combines technical expertise with a keen eye for the tangible real world impact of a change."
+text1 = "A senior developer with 10+ years of experience building scalable applications and leading development teams. I like solving complex problems and breaking large changes down into manageable pieces."
+text2 = "I believe in a pragmatic approach to writing clean, maintainable code and am always keen to learn new technologies and methodologies. My approach combines technical expertise with a keen eye for the tangible real world impact of a change."
