@@ -392,6 +392,7 @@ body {
     }
 
     .pagination-link {
+        background: #1c2128;
         color: #f9fafb;
         border: 1px solid #374151;
     }
