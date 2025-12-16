@@ -25,6 +25,10 @@
     <meta name="theme-color" content="#fdfdfd">
     <link rel="canonical" href="{{ .Permalink }}">
 
+    {{ with .OutputFormats.Get "RSS" }}
+    <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+    {{ end }}
+
     <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 <body>
