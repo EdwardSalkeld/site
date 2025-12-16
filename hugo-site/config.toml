@@ -3,6 +3,16 @@ languageCode = "en-us"
 title = "Edward Salkeld"
 theme = "portfolio"
 
+[pagination]
+pagerSize = 5
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[permalinks]
+posts = "/posts/:year-:month-:day-:slug/"
+
 [params]
 description = "Senior Software Engineer with 10+ years of experience building scalable web applications and leading development teams. Python, JavaScript, and full-stack development expertise."
 author = "Edward Salkeld"
@@ -15,3 +25,6 @@ github = "https://github.com/EdwardSalkeld/"
 [params.about]
 text1 = "A senior developer with 10+ years of experience building scalable applications and leading development teams. I like solving complex problems and breaking large changes down into manageable pieces."
 text2 = "I believe in a pragmatic approach to writing clean, maintainable code and am always keen to learn new technologies and methodologies. My approach combines technical expertise with a keen eye for the tangible real world impact of a change."
+
+[rss]
+limit = 10

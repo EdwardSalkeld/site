@@ -45,6 +45,16 @@ body {
     font-weight: 700;
 }
 
+.hero h1 a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.hero h1 a:hover {
+    color: #374151;
+}
+
 .hero-links {
     font-size: 1rem;
     color: #6b7280;
@@ -152,6 +162,71 @@ body {
     line-height: 1.5;
 }
 
+/* Blog post styles */
+.section h2 a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.section h2 a:hover {
+    color: #374151;
+}
+
+.post-meta {
+    color: #9ca3af;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.post-content {
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+.post-content h2 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.post-content p {
+    margin-bottom: 15px;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fdfdfd;
+    color: #2c3e50;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #e1e8ed;
+    transition: box-shadow 0.2s ease, background 0.2s ease;
+    font-weight: 500;
+}
+
+.pagination-link:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: #fafafa;
+}
+
+.pagination-info {
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
@@ -227,6 +302,14 @@ body {
         color: #e5e7eb;
     }
 
+    .hero h1 a {
+        color: #f9fafb;
+    }
+
+    .hero h1 a:hover {
+        color: #e5e7eb;
+    }
+
     .divider {
         border-top: 1px solid #374151;
     }
@@ -272,5 +355,43 @@ body {
 
     .social-link:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .section h2 a {
+        color: #f9fafb;
+    }
+
+    .section h2 a:hover {
+        color: #e5e7eb;
+    }
+
+    .post-meta {
+        color: #9ca3af;
+    }
+
+    .post-content {
+        color: #e5e7eb;
+    }
+
+    .post-content h2 {
+        color: #f9fafb;
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .pagination-link {
+        background: #1c2128;
+        color: #f9fafb;
+        border: 1px solid #374151;
+    }
+
+    .pagination-link:hover {
+        background: #0f1419;
+    }
+
+    .pagination-info {
+        color: #9ca3af;
     }
 }
