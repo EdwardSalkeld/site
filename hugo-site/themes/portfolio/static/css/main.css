@@ -45,6 +45,16 @@ body {
     font-weight: 700;
 }
 
+.hero h1 a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.hero h1 a:hover {
+    color: #374151;
+}
+
 .hero-links {
     font-size: 1rem;
     color: #6b7280;
@@ -153,24 +163,13 @@ body {
 }
 
 /* Blog post styles */
-.blog-post {
-    margin-bottom: 30px;
-}
-
-.blog-post h3 {
-    font-size: 1.4rem;
-    color: #2c3e50;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-.blog-post h3 a {
+.section h2 a {
     color: #2c3e50;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
-.blog-post h3 a:hover {
+.section h2 a:hover {
     color: #374151;
 }
 
@@ -214,9 +213,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    margin-top: 30px;
-    border-top: 1px solid #e1e8ed;
 }
 
 .pagination-link {
@@ -316,6 +312,14 @@ body {
         color: #e5e7eb;
     }
 
+    .hero h1 a {
+        color: #f9fafb;
+    }
+
+    .hero h1 a:hover {
+        color: #e5e7eb;
+    }
+
     .divider {
         border-top: 1px solid #374151;
     }
@@ -363,8 +367,12 @@ body {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
 
-    .blog-post h3 a {
+    .section h2 a {
         color: #f9fafb;
+    }
+
+    .section h2 a:hover {
+        color: #e5e7eb;
     }
 
     .post-meta {
@@ -384,10 +392,6 @@ body {
     }
 
     .post-divider {
-        border-top: 1px solid #374151;
-    }
-
-    .pagination {
         border-top: 1px solid #374151;
     }
 

@@ -3,45 +3,42 @@
     <div class="card">
         <div class="hero">
             <div class="hero-content">
-                <h1>{{ .Site.Title }}</h1>
+                <h1><a href="/">{{ .Site.Title }}</a></h1>
             </div>
             <div class="hero-links">
-                <a href="/">Home</a>
+                <a href="/posts/">Blog</a>
                 <a href="{{ .Site.Params.social.linkedin }}">LinkedIn</a>
                 <a href="{{ .Site.Params.social.github }}">GitHub</a>
             </div>
         </div>
     </div>
 
+    {{ range .Paginator.Pages }}
     <div class="card">
-        <div class="section">
-            <h2>{{ .Title }}</h2>
-            
-            {{ range .Paginator.Pages }}
-            <article class="blog-post">
-                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
-                <div class="post-content">
-                    {{ .Content }}
-                </div>
-                <hr class="post-divider">
-            </article>
-            {{ end }}
-
-            {{ if gt .Paginator.TotalPages 1 }}
-            <nav class="pagination">
-                {{ if .Paginator.HasPrev }}
-                <a href="{{ .Paginator.Prev.URL }}" class="pagination-link">← Newer Posts</a>
-                {{ end }}
-                
-                <span class="pagination-info">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
-                
-                {{ if .Paginator.HasNext }}
-                <a href="{{ .Paginator.Next.URL }}" class="pagination-link">Older Posts →</a>
-                {{ end }}
-            </nav>
-            {{ end }}
-        </div>
+        <article class="section">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+        </article>
     </div>
+    {{ end }}
+
+    {{ if gt .Paginator.TotalPages 1 }}
+    <div class="card">
+        <nav class="pagination section">
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" class="pagination-link">← Newer Posts</a>
+            {{ end }}
+            
+            <span class="pagination-info">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+            
+            {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}" class="pagination-link">Older Posts →</a>
+            {{ end }}
+        </nav>
+    </div>
+    {{ end }}
 </div>
 {{ end }}
