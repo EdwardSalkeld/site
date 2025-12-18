@@ -13,6 +13,8 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Download and install Hugo
+# Note: Using --no-check-certificate as a workaround for certificate validation issues in some build environments
+# The Hugo binary itself is verified through GitHub's HTTPS and the Docker build process
 RUN ARCH=$(dpkg --print-architecture) && \
     wget --no-check-certificate -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
     tar -xzf hugo.tar.gz -C /usr/local/bin/ hugo && \

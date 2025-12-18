@@ -285,6 +285,8 @@ body {
     }
 
     /* Link colors for better readability in dark mode */
+    /* These styles apply to content links (e.g., in blog posts) */
+    /* More specific selectors below (e.g., .hero-links a) will override these for navigation */
     a {
         color: #6eb9ff;  /* Light blue for unvisited links */
     }
