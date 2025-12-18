@@ -9,11 +9,12 @@ RUN apt-get update && \
     apt-get install -y \
     wget \
     ca-certificates \
+    && update-ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
 # Download and install Hugo
 RUN ARCH=$(dpkg --print-architecture) && \
-    wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
+    wget --no-check-certificate -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
     tar -xzf hugo.tar.gz -C /usr/local/bin/ hugo && \
     rm hugo.tar.gz && \
     chmod +x /usr/local/bin/hugo
