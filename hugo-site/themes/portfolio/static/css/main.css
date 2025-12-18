@@ -284,6 +284,25 @@ body {
         color: #f9fafb;
     }
 
+    /* Link colors for better readability in dark mode */
+    /* These styles apply to content links (e.g., in blog posts) */
+    /* More specific selectors below (e.g., .hero-links a) will override these for navigation */
+    a {
+        color: #6eb9ff;  /* Light blue for unvisited links */
+    }
+
+    a:visited {
+        color: #c5a3ff;  /* Light purple for visited links */
+    }
+
+    a:active {
+        color: #ff9966;  /* Light orange for active links */
+    }
+
+    a:hover {
+        opacity: 0.85;
+    }
+
     .card {
         background: #1c2128;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
