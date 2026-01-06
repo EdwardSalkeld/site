@@ -8,8 +8,6 @@ See site-infra for hosting. This repo contains the content and build configurati
 
 ```
 .
-├── html/                    # Original static HTML site (legacy)
-│   └── index.html
 ├── hugo-site/              # Hugo site
 │   ├── config.toml         # Site configuration
 │   ├── content/            # Site content
@@ -33,7 +31,6 @@ make help           # Show all available commands
 make docker-build   # Build the Hugo Docker image
 make build          # Build the site (output in hugo-site/public/)
 make serve          # Serve the site locally at http://localhost:1313
-make serve-original # Serve the original HTML site at http://localhost:8000
 make clean          # Clean build artifacts
 make clean-all      # Clean build artifacts and Docker image
 ```
