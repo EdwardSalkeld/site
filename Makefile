@@ -18,10 +18,6 @@ build: docker-build ## Build the Hugo site using Docker
 serve: docker-build ## Serve the Hugo site locally on http://localhost:1313 using Docker
 	docker run --rm -it -v $(PWD)/hugo-site:/src -p 1313:1313 $(IMAGE_NAME):$(IMAGE_TAG) hugo server --bind 0.0.0.0
 
-serve-original: ## Serve the original HTML site on http://localhost:8000
-	@echo "Serving original HTML site at http://localhost:8000"
-	@cd html && python3 -m http.server 8000
-
 clean: ## Clean build artifacts
 	rm -rf hugo-site/public hugo-site/resources
 
