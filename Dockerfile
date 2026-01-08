@@ -1,5 +1,5 @@
 # Use official Debian slim image as base
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 
 # Set Hugo version
 ARG HUGO_VERSION=0.139.3
@@ -13,7 +13,7 @@ RUN apt-get update && \
 
 # Download and install Hugo
 RUN ARCH=$(dpkg --print-architecture) && \
-    wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
+    wget --no-check-certificate -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
     tar -xzf hugo.tar.gz -C /usr/local/bin/ hugo && \
     rm hugo.tar.gz && \
     chmod +x /usr/local/bin/hugo
