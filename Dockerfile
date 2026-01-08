@@ -12,6 +12,7 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 # Download and install Hugo
+# Note: --no-check-certificate is used due to certificate trust issues in Debian Trixie
 RUN ARCH=$(dpkg --print-architecture) && \
     wget --no-check-certificate -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
     tar -xzf hugo.tar.gz -C /usr/local/bin/ hugo && \
