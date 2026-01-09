@@ -1,0 +1,16 @@
+Setting --server-response (serverresponse) to 1
+DEBUG output created by Wget 1.25.0 on linux-gnu.
+
+Reading HSTS entries from /root/.wget-hsts
+URI encoding = 'ANSI_X3.4-1968'
+converted 'https://github.com' (ANSI_X3.4-1968) -> 'https://github.com' (UTF-8)
+Converted file name 'index.html' (UTF-8) -> 'index.html' (ANSI_X3.4-1968)
+--2026-01-09 17:23:35--  https://github.com/
+Certificates loaded: 150
+Resolving github.com (github.com)... 140.82.116.3
+Caching github.com => 140.82.116.3
+Connecting to github.com (github.com)|140.82.116.3|:443... connected.
+Created socket 3.
+Releasing 0x000055bf146e6c50 (new refcount 1).
+ERROR: The certificate of 'github.com' is not trusted.
+ERROR: The certificate of 'github.com' doesn't have a known issuer.
