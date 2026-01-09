@@ -1,23 +1,10 @@
 # Use official Debian slim image as base
 FROM debian:trixie-slim
 
-# Set Hugo version
-ARG HUGO_VERSION=0.139.3
-
-# Install dependencies
+# Install Hugo from Debian repositories
 RUN apt-get update && \
-    apt-get install -y \
-    wget \
-    ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
-
-# Download and install Hugo
-# Note: --no-check-certificate is used due to GitHub certificate verification issues in this build environment
-RUN ARCH=$(dpkg --print-architecture) && \
-    wget --no-check-certificate -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
-    tar -xzf hugo.tar.gz -C /usr/local/bin/ hugo && \
-    rm hugo.tar.gz && \
-    chmod +x /usr/local/bin/hugo
+    apt-get install -y hugo && \
+    rm -rf /var/lib/apt/lists/*
 
 # Verify installation
 RUN hugo version

@@ -97,10 +97,10 @@ The custom portfolio theme includes:
 
 ## Docker Setup
 
-The site uses a custom Docker image built on official Debian base image with Hugo installed from the official Hugo releases.
+The site uses a custom Docker image built on official Debian base image with Hugo installed from Debian repositories.
 
 - **Base image**: `debian:trixie-slim` (official Debian image)
-- **Hugo version**: 0.139.3 (downloaded from official Hugo GitHub releases)
+- **Hugo version**: Installed from Debian Trixie repositories (currently v0.131.0+extended)
 - **Build**: `make docker-build` or automatic when running `make build` or `make serve`
 
 No local installation of Hugo is required. The Docker image is built locally on first use.
