@@ -1,5 +1,5 @@
 # Use official Debian slim image as base
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 
 # Set Hugo version
 ARG HUGO_VERSION=0.139.3
