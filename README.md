@@ -105,7 +105,7 @@ The site uses a custom Docker image built on official Debian base image with Hug
 
 ### Hugo Version Management
 
-The Hugo version is determined by the Debian Trixie package repository. The current version (0.131.0+extended) is documented in the Dockerfile's `HUGO_VERSION` build argument (stores base version 0.131.0; "+extended" is the build variant from Debian). This ensures version visibility for development and deployment alignment.
+The Hugo version is determined by the Debian Trixie package repository. The current version (0.131.0+extended) is documented in the Dockerfile's `HUGO_VERSION` build argument, which stores the base version number. The "+extended" variant is provided by the Debian package itself. This documentation ensures version visibility for development and deployment alignment.
 
 To use a different Hugo version, you would need to either:
 - Wait for Debian package updates
