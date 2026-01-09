@@ -1,8 +1,9 @@
 # Use official Debian slim image as base
 FROM debian:trixie-slim
 
-# Hugo version documentation
+# Hugo version documentation (for reference only)
 # The Debian Trixie repository currently provides v0.131.0+extended
+# This ARG documents the expected version but does not control installation
 # To change versions, update the Debian base image or use a different installation method
 ARG HUGO_VERSION=0.131.0
 
@@ -12,8 +13,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Verify installation and display actual version
-RUN echo "Requested Hugo version: ${HUGO_VERSION}" && \
-    echo "Installed Hugo version:" && \
+RUN echo "Expected Hugo version (from Debian Trixie): ${HUGO_VERSION}" && \
+    echo "Actual installed version:" && \
     hugo version
 
 # Set working directory
