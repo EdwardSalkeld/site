@@ -97,10 +97,19 @@ The custom portfolio theme includes:
 
 ## Docker Setup
 
-The site uses a custom Docker image built on official Debian base image with Hugo installed from the official Hugo releases.
+The site uses a custom Docker image built on official Debian base image with Hugo installed from Debian repositories.
 
-- **Base image**: `debian:bookworm-slim` (official Debian image)
-- **Hugo version**: 0.139.3 (downloaded from official Hugo GitHub releases)
+- **Base image**: `debian:trixie-slim` (official Debian image)
+- **Hugo version**: v0.131.0+extended (from Debian Trixie repositories)
 - **Build**: `make docker-build` or automatic when running `make build` or `make serve`
+
+### Hugo Version Management
+
+The Hugo version is determined by the Debian Trixie package repository. The current version (0.131.0+extended) is documented in the Dockerfile's `HUGO_VERSION` build argument, which stores the base version number. The "+extended" variant is provided by the Debian package itself. This documentation ensures version visibility for development and deployment alignment.
+
+To use a different Hugo version, you would need to either:
+- Wait for Debian package updates
+- Use a different Debian release (e.g., switch to unstable/sid)
+- Modify the Dockerfile to use an alternative installation method
 
 No local installation of Hugo is required. The Docker image is built locally on first use.

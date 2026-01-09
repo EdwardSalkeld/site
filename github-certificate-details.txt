@@ -1,0 +1,92 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 285603223326227792 (0x3f6aa9e5110fd50)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: O=mkcert development CA, OU=runner@runnervmi13qx, CN=mkcert runner@runnervmi13qx
+        Validity
+            Not Before: Dec 10 17:22:53 2025 GMT
+            Not After : Jan  9 17:22:53 2027 GMT
+        Subject: O=GoProxy untrusted MITM proxy Inc, CN=github.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bc:98:45:dd:11:d4:69:ab:77:38:91:77:b4:2c:
+                    1f:59:d1:a9:0c:27:99:17:80:bf:11:51:b0:82:66:
+                    da:f6:25:71:e1:4d:d4:8d:c0:de:f2:d7:cf:56:b2:
+                    f4:61:18:c8:ef:01:aa:a7:2c:2f:e1:b6:12:94:26:
+                    34:39:bc:dd:48:66:98:0e:4d:cb:49:5a:42:46:5c:
+                    33:ac:39:cb:a3:dd:3a:da:20:56:c0:5c:bd:c3:40:
+                    05:f2:ee:67:9e:1f:08:bf:5a:cd:ab:ec:7b:ff:bf:
+                    68:84:d0:af:84:4c:69:4b:88:93:6d:95:b1:6b:7d:
+                    02:1b:02:6a:24:43:26:30:8d:ef:b3:a8:05:3f:41:
+                    b7:36:29:b9:45:a5:e1:7a:b6:e2:43:f1:e8:b4:f6:
+                    b5:b4:28:78:90:7e:da:73:82:8e:ec:91:d6:fb:dd:
+                    1b:6a:27:f9:dd:36:26:bf:27:08:95:c9:c3:ad:cb:
+                    d7:0b:cc:15:d3:7b:98:c8:cd:76:f8:9a:f9:4f:57:
+                    01:57:b0:c8:60:bf:6c:33:fc:f4:9b:55:d7:b7:4d:
+                    ae:c4:7a:33:76:cd:8d:e9:8d:5f:3c:34:77:16:ea:
+                    22:35:73:57:19:23:a6:e8:8b:67:13:57:aa:b0:b0:
+                    84:26:8c:ea:cc:05:37:82:a1:a2:b5:bd:f5:ba:7d:
+                    fb:89
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                0B:DA:FD:11:A8:10:27:B3:9E:76:43:39:7D:AB:35:D3:42:44:87:B1
+            X509v3 Subject Alternative Name: 
+                DNS:github.com
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        2d:be:eb:c2:a5:2e:44:b7:bd:c4:19:7a:50:75:89:4d:2b:3a:
+        08:72:d2:77:2f:dc:58:d0:56:22:60:64:f9:9e:f1:7c:45:6d:
+        98:c1:2b:cb:b6:2a:16:27:d6:14:ae:4d:bc:d7:b0:d1:42:d2:
+        da:78:fb:cd:c1:61:2d:69:2c:f7:f6:a2:e1:70:72:ab:9e:44:
+        23:8d:80:54:50:8e:9e:e2:51:4f:b9:da:75:af:04:0d:a2:6a:
+        6d:77:62:28:53:90:a9:13:a5:0c:90:c5:d5:6c:91:6a:6b:01:
+        82:17:3f:b7:f9:83:e6:30:07:b3:d4:bc:9d:40:9e:15:40:58:
+        9b:05:64:4d:45:c5:2e:14:c9:21:e1:1a:bc:4e:26:48:0d:90:
+        c1:d1:f9:01:01:4f:92:7b:e5:40:8e:83:cc:cb:f5:51:31:64:
+        27:c8:66:9b:ba:ca:3d:66:ff:08:9e:0d:3a:14:69:ae:14:84:
+        c6:b8:1e:b3:fa:40:21:00:83:a8:51:c1:9b:17:1a:7b:e5:9d:
+        4e:f1:41:aa:49:5e:f8:c2:35:41:35:ca:68:7b:12:df:50:ab:
+        bb:9f:39:73:96:cc:8b:39:9b:d8:0c:92:1b:bd:fb:e1:fa:07:
+        41:35:dc:63:f3:f2:56:d9:88:ee:59:ed:f7:6b:52:55:cd:a0:
+        bb:0b:d6:d5:08:19:85:15:64:d9:04:1e:69:00:a6:62:f7:b3:
+        c1:57:4e:d4:eb:90:85:1c:4b:47:9d:61:17:85:e5:b4:16:dc:
+        bd:13:ee:e0:77:bd:a6:3a:46:e8:8d:c8:88:61:15:7b:16:91:
+        a3:da:a9:ef:ba:2b:f0:0c:59:d0:4a:82:71:02:d5:e7:9b:cf:
+        13:00:7c:9e:a4:75:8f:b5:8d:c6:ec:3e:bd:0f:f5:41:a7:f7:
+        8b:fe:54:90:62:e3:0e:d1:88:c3:72:c6:76:49:30:05:03:0a:
+        0d:9f:e4:73:0d:57:df:be:13:d7:9b:fc:46:2f:f4:3f:94:85:
+        b0:c8:60:9b:bc:48
+-----BEGIN CERTIFICATE-----
+MIIEFDCCAnygAwIBAgIIA/aqnlEQ/VAwDQYJKoZIhvcNAQELBQAwZTEeMBwGA1UE
+ChMVbWtjZXJ0IGRldmVsb3BtZW50IENBMR0wGwYDVQQLDBRydW5uZXJAcnVubmVy
+dm1pMTNxeDEkMCIGA1UEAwwbbWtjZXJ0IHJ1bm5lckBydW5uZXJ2bWkxM3F4MB4X
+DTI1MTIxMDE3MjI1M1oXDTI3MDEwOTE3MjI1M1owQDEpMCcGA1UEChMgR29Qcm94
+eSB1bnRydXN0ZWQgTUlUTSBwcm94eSBJbmMxEzARBgNVBAMTCmdpdGh1Yi5jb20w
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8mEXdEdRpq3c4kXe0LB9Z
+0akMJ5kXgL8RUbCCZtr2JXHhTdSNwN7y189WsvRhGMjvAaqnLC/hthKUJjQ5vN1I
+ZpgOTctJWkJGXDOsOcuj3TraIFbAXL3DQAXy7meeHwi/Ws2r7Hv/v2iE0K+ETGlL
+iJNtlbFrfQIbAmokQyYwje+zqAU/Qbc2KblFpeF6tuJD8ei09rW0KHiQftpzgo7s
+kdb73RtqJ/ndNia/JwiVycOty9cLzBXTe5jIzXb4mvlPVwFXsMhgv2wz/PSbVde3
+Ta7EejN2zY3pjV88NHcW6iI1c1cZI6boi2cTV6qwsIQmjOrMBTeCoaK1vfW6ffuJ
+AgMBAAGjbTBrMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAM
+BgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFAva/RGoECeznnZDOX2rNdNCRIexMBUG
+A1UdEQQOMAyCCmdpdGh1Yi5jb20wDQYJKoZIhvcNAQELBQADggGBAC2+68KlLkS3
+vcQZelB1iU0rOghy0ncv3FjQViJgZPme8XxFbZjBK8u2KhYn1hSuTbzXsNFC0tp4
++83BYS1pLPf2ouFwcqueRCONgFRQjp7iUU+52nWvBA2iam13YihTkKkTpQyQxdVs
+kWprAYIXP7f5g+YwB7PUvJ1AnhVAWJsFZE1FxS4UySHhGrxOJkgNkMHR+QEBT5J7
+5UCOg8zL9VExZCfIZpu6yj1m/wieDToUaa4UhMa4HrP6QCEAg6hRwZsXGnvlnU7x
+QapJXvjCNUE1ymh7Et9Qq7ufOXOWzIs5m9gMkhu9++H6B0E13GPz8lbZiO5Z7fdr
+UlXNoLsL1tUIGYUVZNkEHmkApmL3s8FXTtTrkIUcS0edYReF5bQW3L0T7uB3vaY6
+RuiNyIhhFXsWkaPaqe+6K/AMWdBKgnEC1eebzxMAfJ6kdY+1jcbsPr0P9UGn94v+
+VJBi4w7RiMNyxnZJMAUDCg2f5HMNV9++E9eb/EYv9D+UhbDIYJu8SA==
+-----END CERTIFICATE-----

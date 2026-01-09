@@ -1,25 +1,21 @@
 # Use official Debian slim image as base
 FROM debian:trixie-slim
 
-# Set Hugo version
-ARG HUGO_VERSION=0.139.3
+# Hugo version documentation (for reference only)
+# The Debian Trixie repository currently provides v0.131.0+extended
+# This ARG documents the base version number but does not control installation
+# To change versions, update the Debian base image or use a different installation method
+ARG HUGO_VERSION=0.131.0
 
-# Install dependencies
+# Install Hugo from Debian repositories
 RUN apt-get update && \
-    apt-get install -y \
-    wget \
-    ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
+    apt-get install -y hugo && \
+    rm -rf /var/lib/apt/lists/*
 
-# Download and install Hugo
-RUN ARCH=$(dpkg --print-architecture) && \
-    wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-${ARCH}.tar.gz && \
-    tar -xzf hugo.tar.gz -C /usr/local/bin/ hugo && \
-    rm hugo.tar.gz && \
-    chmod +x /usr/local/bin/hugo
-
-# Verify installation
-RUN hugo version
+# Verify installation and display actual version
+RUN echo "Expected Hugo base version (from Debian Trixie): ${HUGO_VERSION} (extended build)" && \
+    echo "Actual installed version:" && \
+    hugo version
 
 # Set working directory
 WORKDIR /src

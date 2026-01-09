@@ -1,0 +1,113 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:O=GoProxy untrusted MITM proxy Inc, CN=github.com
+   i:O=mkcert development CA, OU=runner@runnervmi13qx, CN=mkcert runner@runnervmi13qx
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Dec 10 17:22:53 2025 GMT; NotAfter: Jan  9 17:22:53 2027 GMT
+-----BEGIN CERTIFICATE-----
+MIIEFDCCAnygAwIBAgIIA/aqnlEQ/VAwDQYJKoZIhvcNAQELBQAwZTEeMBwGA1UE
+ChMVbWtjZXJ0IGRldmVsb3BtZW50IENBMR0wGwYDVQQLDBRydW5uZXJAcnVubmVy
+dm1pMTNxeDEkMCIGA1UEAwwbbWtjZXJ0IHJ1bm5lckBydW5uZXJ2bWkxM3F4MB4X
+DTI1MTIxMDE3MjI1M1oXDTI3MDEwOTE3MjI1M1owQDEpMCcGA1UEChMgR29Qcm94
+eSB1bnRydXN0ZWQgTUlUTSBwcm94eSBJbmMxEzARBgNVBAMTCmdpdGh1Yi5jb20w
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8mEXdEdRpq3c4kXe0LB9Z
+0akMJ5kXgL8RUbCCZtr2JXHhTdSNwN7y189WsvRhGMjvAaqnLC/hthKUJjQ5vN1I
+ZpgOTctJWkJGXDOsOcuj3TraIFbAXL3DQAXy7meeHwi/Ws2r7Hv/v2iE0K+ETGlL
+iJNtlbFrfQIbAmokQyYwje+zqAU/Qbc2KblFpeF6tuJD8ei09rW0KHiQftpzgo7s
+kdb73RtqJ/ndNia/JwiVycOty9cLzBXTe5jIzXb4mvlPVwFXsMhgv2wz/PSbVde3
+Ta7EejN2zY3pjV88NHcW6iI1c1cZI6boi2cTV6qwsIQmjOrMBTeCoaK1vfW6ffuJ
+AgMBAAGjbTBrMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAKBggrBgEFBQcDATAM
+BgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFAva/RGoECeznnZDOX2rNdNCRIexMBUG
+A1UdEQQOMAyCCmdpdGh1Yi5jb20wDQYJKoZIhvcNAQELBQADggGBAC2+68KlLkS3
+vcQZelB1iU0rOghy0ncv3FjQViJgZPme8XxFbZjBK8u2KhYn1hSuTbzXsNFC0tp4
++83BYS1pLPf2ouFwcqueRCONgFRQjp7iUU+52nWvBA2iam13YihTkKkTpQyQxdVs
+kWprAYIXP7f5g+YwB7PUvJ1AnhVAWJsFZE1FxS4UySHhGrxOJkgNkMHR+QEBT5J7
+5UCOg8zL9VExZCfIZpu6yj1m/wieDToUaa4UhMa4HrP6QCEAg6hRwZsXGnvlnU7x
+QapJXvjCNUE1ymh7Et9Qq7ufOXOWzIs5m9gMkhu9++H6B0E13GPz8lbZiO5Z7fdr
+UlXNoLsL1tUIGYUVZNkEHmkApmL3s8FXTtTrkIUcS0edYReF5bQW3L0T7uB3vaY6
+RuiNyIhhFXsWkaPaqe+6K/AMWdBKgnEC1eebzxMAfJ6kdY+1jcbsPr0P9UGn94v+
+VJBi4w7RiMNyxnZJMAUDCg2f5HMNV9++E9eb/EYv9D+UhbDIYJu8SA==
+-----END CERTIFICATE-----
+ 1 s:O=mkcert development CA, OU=runner@runnervmi13qx, CN=mkcert runner@runnervmi13qx
+   i:O=mkcert development CA, OU=runner@runnervmi13qx, CN=mkcert runner@runnervmi13qx
+   a:PKEY: RSA, 3072 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Jan  9 17:22:47 2026 GMT; NotAfter: Jan  9 17:22:47 2036 GMT
+-----BEGIN CERTIFICATE-----
+MIIEmTCCAwGgAwIBAgIQBftVpAKrzR/CxpjasuVlXjANBgkqhkiG9w0BAQsFADBl
+MR4wHAYDVQQKExVta2NlcnQgZGV2ZWxvcG1lbnQgQ0ExHTAbBgNVBAsMFHJ1bm5l
+ckBydW5uZXJ2bWkxM3F4MSQwIgYDVQQDDBtta2NlcnQgcnVubmVyQHJ1bm5lcnZt
+aTEzcXgwHhcNMjYwMTA5MTcyMjQ3WhcNMzYwMTA5MTcyMjQ3WjBlMR4wHAYDVQQK
+ExVta2NlcnQgZGV2ZWxvcG1lbnQgQ0ExHTAbBgNVBAsMFHJ1bm5lckBydW5uZXJ2
+bWkxM3F4MSQwIgYDVQQDDBtta2NlcnQgcnVubmVyQHJ1bm5lcnZtaTEzcXgwggGi
+MA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC6FEi0YYnU8N1z0wc+HmMHP8DK
+2HfIFZrIC8D875qa4YUv49GYQ6SATmJ12wssRbBTMFNx+h1aDTxV4tvI2dAvHh5T
+0FjIdeBnMsd48Pk/MQaJxNpX8/V0kx08Z5M5dCZMftB67qmhyvEwMvo2+91nygMt
+2se6MO0mGzaY89MM6jySccKOymNHXafLvZXS2hSeRZ0ZyGkPzjrKgHsSkJdGo0Ob
+O2m/v1L8jDOEx2nbE+rC7okEB9/k8+MMhGWneGi/1cDLxuWhE1B2uGjf4UVJjvzS
+ndcvqsdcTNrcl4WqXs3Y6rDVa95OfNF2b+fthWnLNjc9L/Gtmv6ZxNUAZC+x/YVI
+mSyvEqFSJ/Py9wLlafH6aNXAY/SL+80hkitRvGGjaMdW7rjURLY73TQmUiN1CuM3
+Ry2N8htfiHQCHdxQJHFzAwPtADDVh4VIVZRMk8/Xre3Ceo+WWoLjzkhuJ8Y3Oyle
+b05EV8ZEMwmohz3zgySeSJq3XaL/o0hWDNuwAOECAwEAAaNFMEMwDgYDVR0PAQH/
+BAQDAgIEMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAva/RGoECeznnZD
+OX2rNdNCRIexMA0GCSqGSIb3DQEBCwUAA4IBgQC3BORhsqnLVpu6UGkl8jd+aFDJ
+YMc48/krFYzIGht/do+OHB28b4lw54tOL9MTmbyid4ONHQEpxaa/0hTmho7WwTdk
+QKl7dZzBfe486i74wo1nFtZl4PzltEXwUYZ66Vgj6UAdX+MNUb82e8mJcFBW8BwV
+gQZH9HXrtDEgLWBGMrgXMuP/dU64sNbbssi7WHcy0gi8V0mmf2DfWJuEtDI34L7B
+Pfjvnm3n5vPP3etQi+2aRzjfB76U44/J5CLFb6Rbbwro+10qZGBrcDoMqHsbRbFB
+L+fviAfTd1CKdA9inu5ZiwOrcJ0THiJAmxRjrnfOfE3YRnYPpThlINQbuHP8Tm2m
+ogKi8Cxe8bbXL5XloN6+J0uIPcUa0JdWUJ1INA8/LgAkJkAF1+UmrCT4NAxcQlWI
+NJdevdr7E4SwMvWAp4q1s/lOXgjUxrv4AzlZ8Na0vyvaCMeBPE+lSwwmngkYc4uE
+iofNaCdBOSvgJNWUUIV30KbRGeKkGs3nQB5G4mY=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=O=GoProxy untrusted MITM proxy Inc, CN=github.com
+issuer=O=mkcert development CA, OU=runner@runnervmi13qx, CN=mkcert runner@runnervmi13qx
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 2774 bytes and written 1616 bytes
+Verification error: self-signed certificate in certificate chain
+---
+New, TLSv1.3, Cipher is TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 19 (self-signed certificate in certificate chain)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_128_GCM_SHA256
+    Session-ID: 6C866F2DB3B3DCC1FD17C068D06C11E6E138ADD382FADCAB7D447354B15CA928
+    Session-ID-ctx: 
+    Resumption PSK: 0938094607C5DBC049922E73D566B8A53A57051FB8D51265BF92FF36BABE5888
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 604800 (seconds)
+    TLS session ticket:
+    0000 - de 39 4c 49 27 bf 4d b1-1c 8f d2 a1 33 f5 ca fa   .9LI'.M.....3...
+    0010 - a6 9d 13 27 f6 3e 1b d3-88 2c c4 90 53 8b 71 6b   ...'.>...,..S.qk
+    0020 - 6a 39 55 d1 bb 0b 4a 07-e1 1d 48 a7 d5 5c 46 68   j9U...J...H..\Fh
+    0030 - a8 79 ec c6 fc be 6b 58-6c 64 00 71 cf ba f0 64   .y....kXld.q...d
+    0040 - 35 d1 1e 5e 0a 31 9e 42-64 51 c9 2b f5 6a ca 2b   5..^.1.BdQ.+.j.+
+    0050 - 84 91 d7 da 36 45 72 64-c8 11 cf b1 2d ad 80 d0   ....6Erd....-...
+    0060 - d2 91 95 9c bf 46 e9 f4-0c                        .....F...
+
+    Start Time: 1767979414
+    Timeout   : 7200 (sec)
+    Verify return code: 19 (self-signed certificate in certificate chain)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
