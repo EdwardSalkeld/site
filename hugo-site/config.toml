@@ -12,6 +12,7 @@ section = ["HTML", "RSS"]
 
 [permalinks]
 posts = "/posts/:year-:month-:day-:slug/"
+til = "/til/:year-:month-:day-:slug/"
 
 [params]
 description = "Senior Software Engineer with 10+ years of experience building scalable web applications and leading development teams. Python, JavaScript, and full-stack development expertise."
