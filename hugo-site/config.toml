@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://edward.salkeld.net/"
 languageCode = "en-us"
 title = "Edward Salkeld"
 theme = "portfolio"
