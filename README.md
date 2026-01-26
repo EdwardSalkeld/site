@@ -38,12 +38,15 @@ make clean-all      # Clean build artifacts and Docker image
 ### Development Workflow
 
 1. **Start the development server:**
+
    ```bash
    make serve
    ```
+
    This will start Hugo's development server at `http://localhost:1313` with live reload enabled.
 
 2. **Make your changes:**
+
    - Edit content in `hugo-site/data/` (work experience, projects)
    - Edit configuration in `hugo-site/config.toml`
    - Edit templates in `hugo-site/themes/portfolio/layouts/`
@@ -59,7 +62,7 @@ make clean-all      # Clean build artifacts and Docker image
 
 ## Adding Content
 
-### Work Experience
+### Experience
 
 Edit `hugo-site/data/work.yaml`:
 
@@ -82,6 +85,7 @@ Edit `hugo-site/data/projects.yaml`:
 ### Site Configuration
 
 Edit `hugo-site/config.toml` to change:
+
 - Site title and metadata
 - Social media links (LinkedIn, GitHub)
 - About section text
@@ -89,6 +93,7 @@ Edit `hugo-site/config.toml` to change:
 ## Theme Features
 
 The custom portfolio theme includes:
+
 - Responsive design (mobile, tablet, desktop)
 - Dark mode support (automatically follows system preference)
 - Clean, minimal design
