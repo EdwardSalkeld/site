@@ -10,7 +10,7 @@
             {{ end }}
             <span class="project-type">{{ .type }}</span>
         </h3>
-        <p>{{ .description }}</p>
+        <p>{{ .description | markdownify }}</p>
     </div>
     {{ end }}
 </div>

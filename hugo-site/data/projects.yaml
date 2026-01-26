@@ -1,7 +1,7 @@
 - title: "Rum and Popcorn (rumandpopcorn.com)"
   url: "https://rumandpopcorn.com"
   type: "Blog"
-  description: "An on-again off-again blog project that goes back to the days of blogspot. It's been a Wordpress site, a Jekyll site and is currently a Hugo site, hosted on AWS Amplify with source on GitHub."
+  description: "An on-again off-again blog project that goes back to the days of blogspot. It's been a Wordpress site, a Jekyll site and is currently a Hugo site, hosted on ~~AWS Amplify~~ Cloudflare Pages with source on GitHub."
 
 - title: "LIFF Archive (liff.salkeld.net)"
   url: "https://liff.salkeld.net"
