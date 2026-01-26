@@ -8,8 +8,8 @@
             {{ else }}
             {{ .title }}
             {{ end }}
+            <span class="project-type">{{ .type }}</span>
         </h3>
-        <div class="type">{{ .type }}</div>
         <p>{{ .description }}</p>
     </div>
     {{ end }}
