@@ -2,7 +2,13 @@
     <h2>Personal Projects</h2>
     {{ range .Site.Data.projects }}
     <div class="project-item">
-        <h3>{{ .title }}</h3>
+        <h3>
+            {{ if .url }}
+            <a href="{{ .url }}" rel="noopener noreferrer" target="_blank">{{ .title }}</a>
+            {{ else }}
+            {{ .title }}
+            {{ end }}
+        </h3>
         <div class="type">{{ .type }}</div>
         <p>{{ .description }}</p>
     </div>
