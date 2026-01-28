@@ -138,16 +138,28 @@ body {
 .project-item h3 {
     font-size: 1.2rem;
     color: #2c3e50;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
     font-weight: 600;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.project-item h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-item h3 a:hover {
+    text-decoration: underline;
 }
 
 .work-item .company,
-.project-item .type {
+.project-item .project-type {
     color: #6b7280;
     font-weight: 500;
     font-size: 0.95rem;
-    margin-bottom: 2px;
 }
 
 .work-item .duration {
