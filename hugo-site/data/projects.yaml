@@ -13,6 +13,11 @@
   type: "OpenClaw-alike agent framework"
   description: "Terrible name. Fun project. A homemade OpenClaw/MoltBot/ZeroClaw alternative that a) doesn't give my API keys to an LLM and b) runs on very light hardware."
   
+- title: "BBMB"
+  url: "https://github.com/EdwardSalkeld/bbmb"
+  type: "Message Broker"
+  description: "A no-frills FIFO message queue, written in Go, with reference client implementations in Python and Go. Small binary, tiny memory footprint and speedy results."
+
 - title: "Jog On"
   type: "Run tracking app"
   description: "Largely an excuse to write and re-write the same API and DB interface in Python, Rust and Go - this is a (very) simple app for tracking run distances that I host on private infrastructure."
@@ -20,3 +25,8 @@
 - title: "City List"
   type: "Webapp"
   description: "A work-in-progress mapping app, to catalogue current and past restaurants, bars and cafes"
+
+- title: "Dotfiles"
+  url: "https://github.com/EdwardSalkeld/dotfiles"
+  type: "Configs, scripts and helpers"
+  description: "A repo of my nvim, tmux and similar configs. Largely macOS based, with plenty of Debian too."
