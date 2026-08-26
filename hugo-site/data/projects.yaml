@@ -18,10 +18,6 @@
   type: "Message Broker"
   description: "A no-frills FIFO message queue, written in Go, with reference client implementations in Python and Go. Small binary, tiny memory footprint and speedy results."
 
-- title: "Jog On"
-  type: "Run tracking app"
-  description: "Largely an excuse to write and re-write the same API and DB interface in Python, Rust and Go - this is a (very) simple app for tracking run distances that I host on private infrastructure."
-
 - title: "City List"
   type: "Webapp"
   description: "A work-in-progress mapping app, to catalogue current and past restaurants, bars and cafes"
